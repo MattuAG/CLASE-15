@@ -1,0 +1,432 @@
+primero {
+  color: primero; }
+
+segundo {
+  color: segundo; }
+
+tercero {
+  color: tercero; }
+
+cuarto {
+  color: cuarto; }
+
+quinto {
+  color: quinto; }
+
+.btn.btn-color {
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .btn.btn-color:hover {
+    background-color: #ffffff;
+    color: #000000f8;
+    border-radius: 50px;
+    padding: 20px 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.6); }
+
+.btn:hover {
+  background-color: #000000f8;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: box-shadow; }
+
+.whatsapp {
+  font-size: 20px;
+  color: #18C401; }
+
+.email {
+  font-size: 20px;
+  color: #9C001F; }
+
+.insta {
+  font-size: 20px;
+  color: #F00012; }
+
+.face {
+  font-size: 20px;
+  color: #003AB5; }
+
+.twit {
+  font-size: 20px;
+  color: #00A6D2; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?je1zcq");
+  src: url("../fonts/icomoon.eot?je1zcq#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?je1zcq") format("truetype"), url("../fonts/icomoon.woff?je1zcq") format("woff"), url("../fonts/icomoon.svg?je1zcq#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-home:before {
+  content: "\e900"; }
+
+.icon-image:before {
+  content: "\e90d"; }
+
+.icon-cart:before {
+  content: "\e93a"; }
+
+.icon-location:before {
+  content: "\e947"; }
+
+.icon-bubbles2:before {
+  content: "\e96d"; }
+
+.icon-user-plus:before {
+  content: "\e973"; }
+
+.icon-menu:before {
+  content: "\e9bd"; }
+
+.icon-mail4:before {
+  content: "\ea86"; }
+
+.icon-google-plus3:before {
+  content: "\ea8d"; }
+
+.icon-facebook2:before {
+  content: "\ea91"; }
+
+.icon-instagram:before {
+  content: "\ea92"; }
+
+.icon-whatsapp:before {
+  content: "\ea93"; }
+
+.icon-twitter:before {
+  content: "\ea96"; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a {
+  color: #ffffff;
+  text-decoration: none; }
+
+h1 {
+  color: #000000f8;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  font-size: 48px; }
+
+h2 {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 24px; }
+
+.contenedor {
+  background-color: #FDA23E;
+  margin: 0px auto;
+  width: 1000px;
+  padding: 50px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1); }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px; }
+  ul li a {
+    background-color: #000000f8;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 20px 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    ul li a:hover {
+      background-color: #ffffff;
+      color: #000000f8;
+      border-radius: 50px;
+      padding: 20px 30px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.6); }
+
+header nav {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.parrafo {
+  font-size: 20px;
+  color: #000000f8;
+  padding: 30px;
+  margin: 10px; }
+
+.imgInicio {
+  width: 100%; }
+
+.parallax {
+  background-image: url("../assets/img/cocina.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px; }
+
+.parallax h4 {
+  font-size: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  margin: 20px; }
+
+.parallaxInfo {
+  color: #000000f8;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-transform: capitalize;
+  padding: 10px;
+  margin: 50px;
+  border: double; }
+
+.Equipo {
+  color: darkred;
+  font-family: tahoma;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic; }
+
+.txtInfo {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 15px;
+  margin: 30px;
+  border: solid darkred; }
+
+.imgEquipo {
+  border-radius: 60%;
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+  margin: 20px; }
+
+h3 {
+  color: #000000f8;
+  font-weight: bolder;
+  font-size: 24px; }
+
+.txtInfo {
+  font-size: 20px;
+  color: #000000f8; }
+
+.postu {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  color: #000000f8; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.alert {
+  display: block;
+  padding: 12px 20px;
+  background: #f8d7da;
+  color: #721c24;
+  margin-bottom: 10px;
+  border: 1px solid #f5c6cb; }
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; }
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  background: #F1E7B0;
+  padding: 40px;
+  margin: 20px auto;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); }
+
+.contenedor h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #15CF8A; }
+
+.contenido {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: wrap; }
+
+.contenido .info,
+.contenido .formulario {
+  width: 50%; }
+
+/* ===========================================
+Estilos info
+============================================== */
+.info {
+  padding-left: 10px; }
+
+.info .col {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 16px;
+  align-items: center;
+  flex-wrap: nowrap; }
+
+.info .col .icono {
+  color: #15CF8A;
+  margin-right: 10px; }
+
+.info .col p {
+  color: #999; }
+
+.info .redes-s {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 25px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.info .redes-s a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background: #15CF8A;
+  color: #fff;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4); }
+
+.info .redes-s a:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+  /* background: #000; */ }
+
+/*Estilos formulario*/
+.formulario {
+  padding-left: 10px; }
+
+.formulario input[type='text'],
+.formulario textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px 20px;
+  border: 1px solid #999;
+  color: #999;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  outline: 0; }
+
+.formulario textarea {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 150px;
+  max-height: 200px; }
+
+.formulario input[type='text']:focus,
+.formulario textarea:focus {
+  border: 1px solid #000000f8; }
+
+.formulario button {
+  padding: 12px 30px;
+  border: transparent;
+  background: #000000f8;
+  color: #fff;
+  cursor: pointer;
+  float: right; }
+
+@media (max-width: 520px) {
+  .contenedor {
+    padding: 40px 20px; }
+  .contenido .info,
+  .contenido .formulario {
+    width: 100%;
+    padding: 0px; }
+  .contenido .info {
+    margin-bottom: 30px; } }
+
+@media (max-width: 800px) {
+  .contenido .info,
+  .contenido .formulario {
+    width: 100%;
+    padding: 0px; }
+  .contenido .info {
+    margin-bottom: 30px; } }
+
+.imagenesCompraOnline {
+  width: 180px;
+  height: 150px;
+  display: inline-block;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 50%; }
+
+table {
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%; }
+
+tr th {
+  padding: 20px; }
+
+thead {
+  background-color: #246355;
+  border-bottom: solid 50px #0F362D;
+  color: white; }
+
+tr:hover th {
+  background-color: #1ae208;
+  color: white; }

@@ -1,0 +1,19 @@
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+tr th{
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 50px #0F362D;
+	color: white;
+}
+tr:hover th{
+	background-color: $quinto;
+    color: white;
+}

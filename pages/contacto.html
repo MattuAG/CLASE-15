@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="El Sabor de la nostalgia, un lugar donde no vas a dejar de comer nuestras delicias y vas a querer volver a repetir el plato, nuestro menu es infinito, lo pedis lo tenes.">
+    <meta name="keywords" content="Contacto, Email, Correo, Enviar,Whatsapp, Facebook, Instagram.">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<link rel="stylesheet" href="../css/estilo.css">
+  <link rel="stylesheet" href="../scss/estilo.scss">
+	<title>CONTACTANOS</title>
+<body>
+	<div class="contenedor">
+		<header>
+      <nav>
+        <div>
+          <a href="index.html"><img src="../assets/img/logo.png" width="150" height="150"></a>
+        </div>
+        <ul>
+          <li><a href="../index.html"class="btn btn-cta">Home</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="compra-online.html">Compra Online</a></li>
+          <li><a href="sucursales.html">Sucursales</a></li>
+        </ul>
+        </nav>
+    </header>
+	</div>
+	<div class="contenedor">
+
+        <h1>Contacto</h1>
+
+        <div class="contenido">
+
+            <div class="info">
+
+                <div class="col">
+                    <i class="icono fas fa-map-marker-alt"></i>
+                    <p>Soler 3599, C1425 BWG, Buenos Aires</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-envelope"></i>
+                    <p>Nostalgiadesabores@gmail.com</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-phone"></i>
+                    <p> (011) 4222-1808<br> +54 1169578547</p>
+                </div>
+
+                <div class="redes-s">
+
+                    <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                </div>
+
+            </div>
+
+            <form action="enviado.html" method="GET" class="formulario">
+
+                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                <input type="text" name="correo" placeholder="Correo electróico" id="correo">
+                <input type="text" name="asunto" placeholder="Asunto" id="asunto">
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                <button type="button" onclick="validarFormulario()" >Enviar</button>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
